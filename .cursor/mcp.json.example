@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "X-MCP-Toolsets": "repos,issues,pull_requests,actions",
+        "X-MCP-Readonly": "true"
+      }
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "slack": {
+      "url": "https://mcp.slack.com/mcp"
+    },
+    "canva": {
+      "url": "https://mcp.canva.com/mcp"
+    }
+  }
+}

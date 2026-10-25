@@ -1,0 +1,7 @@
+{
+  "chat.useAgentsMdFile": true,
+  "chat.useNestedAgentsMdFiles": true,
+  "chat.useClaudeMdFile": false,
+  "chat.includeApplyingInstructions": true,
+  "chat.includeReferencedInstructions": true
+}

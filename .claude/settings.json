@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(!.env.example)",
+      "Read(secrets/**)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(terraform apply *)",
+      "Bash(terraform destroy *)",
+      "Bash(cdk deploy *)",
+      "Bash(azd up *)",
+      "Bash(azd deploy *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(npm publish *)",
+      "Bash(pnpm publish *)"
+    ]
+  }
+}

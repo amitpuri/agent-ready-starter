@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Personal agent config (keep out of the repo)
+CLAUDE.local.md
+.claude/settings.local.json
+.cursor/mcp.json
+
+# Agent scratch
+tmp/
+
+# Infra state and plans
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfplan
+cdk.out/
+.azure/
+
+# OS / editor
+.DS_Store
