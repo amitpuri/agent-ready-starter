@@ -2,7 +2,7 @@
 
 A starter layout for repositories that coding agents work in — Claude Code (desktop and CLI),
 Google Antigravity, Cursor, VS Code, Devin Desktop (formerly Windsurf) and Devin.
-It is the companion to the article **"Get the Most Out of Coding Agents"**.
+It is the companion to the article **"[Get the Most Out of Coding Agents](https://www.linkedin.com/pulse/get-most-out-coding-agents-dr-amit-puri-g0vkc/)"**.
 
 It is stack-agnostic: copy the files into a new or existing repo, then replace every `FILL`.
 
